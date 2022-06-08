@@ -1,0 +1,245 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+}
+.news_hd .more {
+    float: right;
+    font-size: 14px;
+}
+.news_hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.news_bd {
+    padding: 5px 15px 0;
+}
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+}
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;    
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li a i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../images/jian.jpg) no-repeat;
+}
+.bargain {
+    margin-top: 5px;
+}
+.recom {
+    height: 163px;
+    margin-top: 11px;
+    background-color: #ebebeb;
+}
+.recom_hd{
+    float: left;
+    width: 206px;
+    line-height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom_bd img {
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.tuijian {
+    margin-top: 30px;
+}
+.tuijian_hd {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.tuijian_hd h2 {
+    float: left;
+    font-weight: normal;
+}
+.tuijian_hd a {
+    float: right;
+}
+.icomoon{
+    font-family: 'icomoon';
+}
+.tuijian_bd {
+    height: 234px;
+    border: 1px solid #ededed;
+}
+.tuijian_bd img {
+    width: 140px;
+    height: 140px;
+}
+.tuijian_bd ul li {
+    position: relative;
+    float: left;
+    width: 14%;
+    height: 100%;
+    margin-left: 31px;
+    margin-top: 13px;
+}
+.tuijian_bd ul li:nth-child(-n+5)::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 140px;
+    width: 1px;
+    height: 62px;
+    background-color: #ddd;
+}
+.tuijian_bd ul li a h3 {
+    font-weight: normal;
+    font-size: 12px;
+    font-style: songti;
+}
+.tuijian .money {
+    font-size: 18px;
+    font-weight: bold;
+    color: #df3033;
+}
+.youqu {
+    margin-top: 30px;
+}
+.youqu_hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.youqu_bd {
+    height: 408px;
+    border: 1px solid #ededed;
+}
+.slider-bar {
+    position: fixed;
+    top: 338px;
+    left: 93%;
+    z-index: 9999;
+}
+.slider-bar ul li {
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 12px;
+    font-style: songti;
+    border-bottom: 1px solid #ededed;
+}
+.slider-bar ul li:hover {
+    background-color: #c81623;
+ }
+.slider-bar ul li:hover a {
+    color: #fff;
+ }
+.goBack {
+     display: none;
+ }
